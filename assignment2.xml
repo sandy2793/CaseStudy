@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllMovieSuite">
+	<listeners>
+		<listener class-name="Helper.ListenersImplementation" />
+	</listeners>
+	<parameter name="browser.name" value="firefox" />
+	<parameter name="implicit.wait" value="10" />
+	<parameter name="url" value="https://www.allmovie.com/" />
+	<test thread-count="5" name="AllMovieTest">
+		<parameter name="movie.name" value="The Godfather" />
+		<parameter name="movie.genre" value="Crime" />
+		<parameter name="movie.MPAArating" value="A" />
+		<parameter name="movie.directorName" value="Francis Ford Coppola" />
+		<parameter name="movie.AlPacino.characterName" value="Michael Corleone" />
+		<classes>
+			<class name="Assignments.Assignment2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

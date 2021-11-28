@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-28T13:06:46 IST" name="AllMovieSuite" finished-at="2021-11-28T13:08:17 IST" duration-ms="91215">
+    <groups>
+    </groups>
+    <test started-at="2021-11-28T13:06:46 IST" name="AllMovieTest" finished-at="2021-11-28T13:08:17 IST" duration-ms="91215">
+      <class name="Assignments.Assignment2">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String,java.lang.String)[pri:0, instance:Assignments.Assignment2@6b927fb]" started-at="2021-11-28T13:06:46 IST" name="LaunchBrowser" finished-at="2021-11-28T13:07:20 IST" duration-ms="33846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="LaunchApplicaiton(java.lang.String)[pri:0, instance:Assignments.Assignment2@6b927fb]" started-at="2021-11-28T13:07:20 IST" name="LaunchApplicaiton" finished-at="2021-11-28T13:07:30 IST" duration-ms="9757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.allmovie.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplicaiton -->
+        <test-method is-config="true" signature="init()[pri:0, instance:Assignments.Assignment2@6b927fb]" started-at="2021-11-28T13:07:30 IST" name="init" finished-at="2021-11-28T13:07:30 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="assignment2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Assignments.Assignment2@6b927fb]" started-at="2021-11-28T13:07:30 IST" name="assignment2" finished-at="2021-11-28T13:08:09 IST" duration-ms="38953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Godfather]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Crime]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Francis Ford Coppola]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Michael Corleone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignment2 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Assignments.Assignment2@6b927fb]" started-at="2021-11-28T13:08:09 IST" name="CloseBrowser" finished-at="2021-11-28T13:08:17 IST" duration-ms="8059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Assignments.Assignment2 -->
+    </test> <!-- AllMovieTest -->
+  </suite> <!-- AllMovieSuite -->
+</testng-results>
